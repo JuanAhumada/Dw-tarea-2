@@ -113,3 +113,15 @@ section{
     text-align: center;
     word-wrap: break-word;
 }
+
+#redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#redes img{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
