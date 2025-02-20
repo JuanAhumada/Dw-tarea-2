@@ -1,0 +1,59 @@
+/* Contenedor del formulario de login */
+#login {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#login-table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 30px;
+}
+
+#login-table thead {
+    text-align: center;
+    color: #920000;
+}
+/* Estilos de las celdas */
+#login-table tr, td {
+    padding: 10px;
+    border: 0;
+}
+/* Estilos de los inputs */
+.text_in{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilo del botón */
+.button{
+    background-color: #920000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #b35f00;
+}
+
+#create{
+    text-align: center;
+    margin-top: 20px;
+    color: #920000;
+}

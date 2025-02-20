@@ -1,0 +1,115 @@
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #920000;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+/*Nav zone*/
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1;
+    border: #333 solid 1px;
+    display: inline;
+}
+
+nav ul li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a img {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+}
+
+nav ul li:hover {
+    background-color: #991700;
+}
+
+main{
+    flex: 1;
+}
+
+section{
+    flex: 1;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    position: static;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+}
+
+section{
+    padding: 20px;
+}
+
+#selected{
+    background-color: #000000;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centrado table{
+    align-items: "center";
+    border: 2px solid #333;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 50%;
+}
+
+.centrado th{
+    background-color: #920000;
+    color: white;
+    padding: 10px;
+}
+
+.centrado th, td{
+    border: 2px solid #333;
+    padding: 10px;
+    text-align: center;
+    word-wrap: break-word;
+}
